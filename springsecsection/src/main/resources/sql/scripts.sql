@@ -1,6 +1,4 @@
-drop table `authorities`;
-drop table `users`;
-drop table `customer`;
+create database eazybank9;
 
 CREATE TABLE `customer` (
   `customer_id` int NOT NULL AUTO_INCREMENT,
